@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    background-image:url("k1OZKVx-cool-dark-background.jpg");
+    background-repeat:no-repeat;
+    
+    
+  
+}
+
+.morebeatslogo img{
+
+
+    border: solid white 4px;
+    border-radius: 250px;
+    background-color: rgba(78, 76, 70, 0.534);
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    transition:all .5s ease-in-out;
+    
+
+}
+
+.cajasocial {
+    height: 100px;
+    width: 600px;
+    border: rgba(20, 18, 1, 0.781) 5px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: auto;
+    margin-top: 100px;
+    transition:all .5s ease-in-out;
+    
+    
+}
+
+.cajasocial:hover {
+    
+    box-shadow: 0px 0px 20px 7px #010303;
+    -webkit-box-shadow: 0x 0px 10px 0px #0000008a;
+    border-color: rgba(139, 139, 20, 0.788);
+    transform: scale(1.1);
+}
+
+
+
+
+.morebeatslogo img:hover {
+
+
+border-radius:100%;
+-webkit-border-radius:100%;
+box-shadow: 0px 0px 15px 15px #010303;
+-webkit-box-shadow: 10x 13px 15px 20px #0000008a;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+
+}
+
+.cajasocial img {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border: black 3px solid;
+    padding: 3px;
+    border-radius: 100px;
+    transition:all .3s ease-in-out;
+}
+
+.cajasocial li {
+    display: inline-flex;
+}
+
+.cajasocial ul {
+    margin-left: 50px;
+}
+
+.cajasocial img:hover{
+    transform: scale(1.2); 
+}
