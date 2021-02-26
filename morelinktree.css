@@ -85,3 +85,13 @@ transform: rotate(360deg);
 .cajasocial img:hover{
     transform: scale(1.2); 
 }
+
+/* Media queries: Tablet Landscape */
+@media screen and (max-width: 1060px){
+    #primary { width: 67%;}
+}
+
+/* Media queries: tablet portrait */
+@media screen and (max-width:768){
+    #primary {width: 100%;}
+}
