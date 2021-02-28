@@ -1,26 +1,49 @@
 body {
     background-color: black;
-    background-image:url("k1OZKVx-cool-dark-background.jpg");
+    background-image:url("fondo.jpg");
     line-height: 1px;
-    background-repeat:repeat;
+    /* Set up proportionate scaling */
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
     
     
     
   
 }
 
-.morebeatslogo img{
+
+#maincontainer{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    min-width: 600px;
+
+
+
+
+
+
+}
+
+#morebeatslogo img{
 
 
     border: solid white 4px;
     border-radius: 250px;
     background-color: rgba(78, 76, 70, 0.534);
-    width: 250px;
-    height: 250px;
+    width: 27%;
+    height: 27%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 5%;
     transition:all .5s ease-in-out;
     
 
@@ -28,13 +51,16 @@ body {
 
 .cajasocial {
     height: 100px;
-    width: 600px;
+    width: 80%;
     border: rgba(20, 18, 1, 0.781) 5px solid;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.911);
     margin: auto;
     margin-top: 100px;
     transition:all .5s ease-in-out;
+    display: table;   /* Allow the centering to work */
+    text-align:center;
+	
     
     
 }
@@ -50,7 +76,7 @@ body {
 
 
 
-.morebeatslogo img:hover {
+#morebeatslogo img:hover {
 
 
 border-radius:100%;
@@ -63,26 +89,36 @@ transform: rotate(360deg);
 }
 
 .cajasocial img {
-    display: inline-flex;
-    margin-left: 50px;
+    /*display: inline-flex; */
+   /* margin-left: 50px; */
     margin-right: auto;
     margin-bottom: 10px;
-    width: 60px;
-    height: 60px;
+    /*height: 60px; */
+    width: 60%;
     border: black 3px solid;
     padding: 3px;
     border-radius: 100px;
     transition:all .3s ease-in-out;
+
 }
 
 .cajasocial li {
-    display: inline-flex;
+    display:inline-block;
+    width: 32%;
 }
 
 .cajasocial ul {
-    margin-left: 50px;
+
+    margin-left: 6%;
+    list-style: none;
+	/* padding-top: 20px; */
+    margin-right: 12%;
+
 }
 
 .cajasocial img:hover{
     transform: scale(1.2); 
 }
+
+
+
