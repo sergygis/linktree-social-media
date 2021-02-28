@@ -1,7 +1,8 @@
 body {
     background-color: black;
     background-image:url("k1OZKVx-cool-dark-background.jpg");
-    background-repeat:no-repeat;
+    line-height: 1px;
+    background-repeat:repeat;
     
     
     
@@ -84,22 +85,4 @@ transform: rotate(360deg);
 
 .cajasocial img:hover{
     transform: scale(1.2); 
-}
-
-#primary body{
-    height: 800px;
-}
-
-img{
-    max-width: 100%; height: auto;
-}
-
-/* Media queries: Tablet Landscape */
-@media screen and (max-width: 1060px){
-    #primary { width: 67%;}
-}
-
-/* Media queries: tablet portrait */
-@media screen and (max-width:768){
-    #primary {width: 100%;}
 }
