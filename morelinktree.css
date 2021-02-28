@@ -23,7 +23,7 @@ body {
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
-    min-width: 600px;
+    min-width: 800px;
 
 
 
@@ -38,8 +38,9 @@ body {
     border: solid white 4px;
     border-radius: 250px;
     background-color: rgba(78, 76, 70, 0.534);
-    width: 27%;
-    height: 27%;
+    width: 30%;
+    height: 30%;
+    min-width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
