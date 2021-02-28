@@ -52,7 +52,7 @@ body {
 
 .cajasocial {
     height: 100px;
-    width: 80%;
+    width: 70%;
     border: rgba(20, 18, 1, 0.781) 5px solid;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.911);
@@ -93,7 +93,6 @@ transform: rotate(360deg);
     /*display: inline-flex; */
    /* margin-left: 50px; */
     margin-right: auto;
-    margin-bottom: 10px;
     /*height: 60px; */
     width: 60%;
     border: black 3px solid;
