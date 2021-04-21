@@ -124,3 +124,7 @@ transform: rotate(360deg);
 .cajasocial img:hover{
     transform: scale(1.2); 
 }
+
+#formulario {
+    margin-top: 5%;
+}
